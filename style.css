@@ -20,7 +20,17 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+    width: 40%;
+    padding: 15px;
+    background: #b55f0b;
+    border-radius: 10px;
+    transition: 0.5s background;
 }
+
+nav li:hover {
+    background: #09633d;
+}
+
 
 nav a {
     text-transform: uppercase;
@@ -31,8 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #b55f0b;
-    text-decoration: underline;
+    color: #ffffff;
 }
 
 .produtos {
@@ -103,7 +112,7 @@ form {
     margin: 50px 0;
 }
 
-form label, form p {  /* usando a vírgula, a mesma configuração será aplicada em todos */
+form label, form legend {  /* usando a vírgula, a mesma configuração será aplicada em todos */
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -120,7 +129,34 @@ form label, form p {  /* usando a vírgula, a mesma configuração será aplicad
     margin: 20px 0;
 }
 
-p {
-
+.enviar {
+    width: 30%;
+    padding: 10px 0;
+    background: #b55f0b;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s background;
 }
 
+.enviar:hover {
+    background: #09633d;
+    /*transform: scale(1.2) aumentar*/
+    /*transform: rotate(70deg) rotacionar*/
+}
+
+table {
+    margin: 20px 040px;
+}
+
+thead {
+    background:#525e59;
+    color: white;
+    text-transform: uppercase;
+}
+
+td, th {
+    border: 1px solid black; 
+    padding: 8px 12px;
+}

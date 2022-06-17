@@ -28,7 +28,7 @@ header {
 	text-decoration: 1px underline;
 }
 
-.principal{
+.principal {
 	background: #ffffff;
 	padding: 30px;
 	width: 940px;
@@ -61,11 +61,20 @@ em strong:hover {
 
 .beneficios {
 	background: black;
+	margin: 0;
+}
+
+.textobeneficios {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
 }
 
 .titulo-centralizado {
+	display: block;
 	text-align: center;
 	width: 40%;
+	margin: 10px;
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -73,18 +82,24 @@ em strong:hover {
 }
 
 ul {
-	display: inline-block;
 	width: 40%;
+	padding: 0;
 }
 
 .itens {
+	display: table;
 	text-align: center;
 	font-style: italic;
 	margin: 0 0 10px;
 	color: white;
 }
 
-.imagembeneficios {
-	width: 50%;
+.caixabeneficios {
+	display: inline-block;
 	text-align: right;
+	width: 50%;
+  }
+
+.imagembeneficios {
+	width: 100%;
 }
