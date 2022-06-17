@@ -1,31 +1,49 @@
-#banner {
-	width:100%;
-}
-
 header {
     background: #000000;
     padding: 20px 0;
 }
 
-.titulo-principal {
-	padding-left: 20px;
-	position: relative;
+.caixa {
+    position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-.titulo-principal p {
-	color: white;
-	text-transform: uppercase;
-	font-size: 40px;
+nav {
     position: absolute; /* sempre será absoluto em relação a toda a página */
     top: 110px;
     right: 0;
 }
 
-.titulo-principal p:hover {
-	color: #b55f0b;
-	text-decoration: 1px underline;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    width: 60%;
+    padding: 15px;
+    background: #b55f0b;
+    border-radius: 10px;
+    transition: 0.5s background;
+}
+
+nav li:hover {
+    background: #09633d;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+#banner {
+	width:100%;
 }
 
 .principal {
@@ -75,7 +93,7 @@ em strong:hover {
 	text-align: center;
 	width: 40%;
 	margin: 10px;
-	color: white;
+	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 27px;
