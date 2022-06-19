@@ -1,2 +1,4 @@
 # alura-projeto-1
- [#1] Formação Front-End da Alura
+ Barbearia Alura
+ 
+ 1º projeto de HTML/CSS do curso Formação HTML e CSS da Alura 🚀
